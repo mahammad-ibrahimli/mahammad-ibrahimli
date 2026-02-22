@@ -1,127 +1,105 @@
 <!-- ───────────────────────────────────────────────────────────────
   Profile README • Mahammad Ibrahimli
-  Minimal, functional, premium UI (GitHub-flavored Markdown)
+  Premium visual, functional, minimal (GitHub-flavored Markdown)
+  Language switch is VISUAL ONLY (all links go to EN section)
 ──────────────────────────────────────────────────────────────────── -->
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&size=28&duration=2400&pause=700&color=9AA4B2&center=true&vCenter=true&width=880&lines=Mahammad+Ibrahimli;Backend+Engineer+%E2%80%A2+API+Architecture;System+Design+%E2%80%A2+Security+Mindset;Java+Spring+Boot+%E2%80%A2+TypeScript+React" alt="Typing SVG" />
+</p>
+
+<p align="center">
   <a href="#english"><img alt="Language" src="https://img.shields.io/badge/Language-EN%20%E2%80%A2%20AZ%20%E2%80%A2%20TR%20%E2%80%A2%20RU-111827?style=for-the-badge"></a>
-  <a href="#english"><img alt="Status" src="https://img.shields.io/badge/Status-Builder-111827?style=for-the-badge"></a>
+  <a href="#english"><img alt="Focus" src="https://img.shields.io/badge/Focus-Backend%20%2F%20API-111827?style=for-the-badge"></a>
   <a href="https://linkedin.com/in/mahammd-ibrahimli"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-111827?style=for-the-badge"></a>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&size=26&duration=2400&pause=700&color=9AA4B2&center=true&vCenter=true&width=820&lines=Backend+Engineer+%E2%80%A2+API+Architecture;Java+Spring+Boot+%E2%80%A2+TypeScript+React;Security+Mindset+%E2%80%A2+System+Design" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <a href="#english">EN</a> ·
-  <a href="#english">AZ</a> ·
-  <a href="#english">TR</a> ·
-  <a href="#english">RU</a>
+  <a href="#english">🇬🇧 EN</a> ·
+  <a href="#english">🇦🇿 AZ</a> ·
+  <a href="#english">🇹🇷 TR</a> ·
+  <a href="#english">🇷🇺 RU</a>
 </p>
 
-<hr/>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:0b1220&height=90&section=header&text=&fontSize=0" alt="divider" />
+</p>
 
 <a id="english"></a>
 
-<h2>Identity</h2>
-
-<p>
-I build backend systems with a focus on <b>clarity</b>, <b>security</b>, and <b>long-term maintainability</b>.
-I prefer clean architecture, well-defined API contracts, and predictable behavior under load.
+<h1 align="center">Mahammad Ibrahimli</h1>
+<p align="center">
+  Backend Engineer • API Architecture • System Design
+</p>
+<p align="center">
+  Baku, Azerbaijan
 </p>
 
-<div>
-  <b>Primary stack</b>: Java · Spring Boot · TypeScript · React<br/>
-  <b>Location</b>: Baku, Azerbaijan
-</div>
+---
 
-<br/>
+## About
 
-<h2>Signal, not noise</h2>
+I build backend systems with a focus on **clarity**, **security**, and **long-term maintainability**.  
+I prefer clean architecture, predictable API contracts, and disciplined validation.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>Engineering approach</b>
-      <ul>
-        <li>architecture before code</li>
-        <li>DTO-based API contracts</li>
-        <li>config-driven systems</li>
-        <li>separation of concerns</li>
-        <li>secure by default</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <b>Current direction</b>
-      <ul>
-        <li>scalable backend services</li>
-        <li>authentication & authorization flows</li>
-        <li>workflow / state-based logic</li>
-        <li>developer-facing tools UI</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<h2>Selected work</h2>
+**Primary stack** → Java • Spring Boot • TypeScript • React
 
 ---
-<table>
-  <tr>
-    <td valign="top">
-      <b>CyberHub</b><br/>
-      API-first full-stack platform with clean contracts and structured validation.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <b>Workflow Engine (Java)</b><br/>
-      State-driven process modeling for complex logic and predictable transitions.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <b>Interactive Portfolio</b><br/>
-      3D UI with performance-focused rendering and disciplined component structure.
-    </td>
-  </tr>
-</table>
 
-<br/>
+## Engineering Approach
 
-<h2>Stack (compact)</h2>
+- architecture before code
+- DTO-based API contracts
+- config-driven systems
+- separation of concerns
+- secure by default
 
-<table>
-  <tr>
-    <td width="25%"><b>Backend</b></td>
-    <td>Java · Spring Boot</td>
-  </tr>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td>TypeScript · React · Tailwind</td>
-  </tr>
-  <tr>
-    <td><b>Data</b></td>
-    <td>MongoDB</td>
-  </tr>
-  <tr>
-    <td><b>Tools</b></td>
-    <td>Docker · Git · Postman</td>
-  </tr>
-</table>
+---
 
-<br/>
+## Current Direction
 
-<h2>Links</h2>
+- scalable backend services
+- authentication & authorization flows
+- workflow / state-based logic
+- developer-facing tools UI
 
-<ul>
-  <li><b>LinkedIn</b>: <a href="https://linkedin.com/in/mahammd-ibrahimli">linkedin.com/in/mahammd-ibrahimli</a></li>
-  <li><b>Portfolio</b>: soon</li>
-</ul>
+---
 
-<hr/>
+## 🛠️ Technical Stack
+
+| Domain | Technologies |
+| :--- | :--- |
+| **Backend Engineering** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) |
+| **Frontend Development** | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |
+| **Database** | ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) |
+| **Caching & Messaging** | ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) |
+| **Security** | ![JWT](https://img.shields.io/badge/JWT-111827?style=for-the-badge&logo=jsonwebtokens&logoColor=white) ![OAuth2](https://img.shields.io/badge/OAuth2-3B82F6?style=for-the-badge&logo=oauth&logoColor=white) |
+| **Tools & DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white) |
+| **Build & CI** | ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white) |
+| **Environment** | ![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=white) ![Windows 11](https://img.shields.io/badge/Windows%2011-0078D6?style=for-the-badge&logo=windows11&logoColor=white) |
+
+<p align="center">
+  <img height="38" src="https://skillicons.dev/icons?i=java,spring,nodejs,ts,react,js,tailwind,mongodb,postgres,redis,docker,git&perline=12" alt="skill icons" />
+</p>
+
+---
+
+## Selected Work
+
+- **CyberHub** — API-first full-stack platform with structured validation.
+- **Workflow Engine (Java)** — state-driven process modeling for complex logic.
+- **Interactive Portfolio** — 3D UI with performance-focused rendering.
+
+---
+
+## Links
+
+- **LinkedIn**: https://linkedin.com/in/mahammd-ibrahimli  
+- **Portfolio**: soon
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,100:111827&height=90&section=footer&text=&fontSize=0" alt="footer" />
+</p>
 
 <p align="center">
   <sub>minimal • functional • consistent</sub>
