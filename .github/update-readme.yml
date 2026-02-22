@@ -1,1 +1,122 @@
+name: Update README (Latest Repos)
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *" # hər gün 06:00 UTC (AZT ~ 10:00)
+  push:
+    branches: [ "main" ]
+    paths:
+      - ".github/workflows/update-readme.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate README section
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - << 'PY'
+          import json, os, re, sys, urllib.request
+
+          owner = os.environ.get("GH_USER")
+          token = os.environ.get("GH_TOKEN")
+
+          if not owner:
+            print("GH_USER is missing", file=sys.stderr)
+            sys.exit(1)
+
+          # GitHub API: list repos
+          url = f"https://api.github.com/users/{owner}/repos?per_page=100&sort=updated"
+          req = urllib.request.Request(url)
+          req.add_header("Accept", "application/vnd.github+json")
+          req.add_header("User-Agent", "readme-updater")
+          if token:
+            req.add_header("Authorization", f"Bearer {token}")
+
+          with urllib.request.urlopen(req) as resp:
+            repos = json.loads(resp.read().decode("utf-8"))
+
+          # Filter: public + not fork, take top 8
+          filtered = []
+          for r in repos:
+            if r.get("private"):
+              continue
+            if r.get("fork"):
+              continue
+            filtered.append(r)
+          filtered = filtered[:8]
+
+          lines = []
+          lines.append("## 🧩 Latest Projects")
+          if not filtered:
+            lines.append("_No public repositories found yet._")
+          else:
+            for r in filtered:
+              name = r.get("name", "")
+              html = r.get("html_url", "")
+              desc = (r.get("description") or "").strip()
+              lang = (r.get("language") or "").strip()
+
+              meta = []
+              if lang:
+                meta.append(lang)
+              stars = r.get("stargazers_count", 0)
+              if isinstance(stars, int) and stars > 0:
+                meta.append(f"⭐ {stars}")
+
+              meta_txt = f" — {' | '.join(meta)}" if meta else ""
+              desc_txt = f": {desc}" if desc else ""
+              lines.append(f"- [{name}]({html}){meta_txt}{desc_txt}")
+
+          new_block = "\n".join(lines).rstrip() + "\n"
+
+          readme_path = "README.md"
+          try:
+            with open(readme_path, "r", encoding="utf-8") as f:
+              readme = f.read()
+          except FileNotFoundError:
+            # if README doesn't exist, create skeleton with markers
+            readme = f"# {owner}\n\n<!--LATEST_PROJECTS_START-->\n<!--LATEST_PROJECTS_END-->\n"
+
+          start = "<!--LATEST_PROJECTS_START-->"
+          end = "<!--LATEST_PROJECTS_END-->"
+
+          if start not in readme or end not in readme:
+            # append markers if missing
+            readme = readme.rstrip() + f"\n\n{start}\n{end}\n"
+
+          pattern = re.compile(rf"{re.escape(start)}.*?{re.escape(end)}", re.DOTALL)
+          replaced = pattern.sub(f"{start}\n{new_block}{end}", readme)
+
+          with open(readme_path, "w", encoding="utf-8") as f:
+            f.write(replaced)
+
+          print("README updated section generated.")
+          PY
+
+      - name: Commit & Push (if changed)
+        run: |
+          if git status --porcelain | grep -q "README.md"; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update latest projects in README"
+            git push
+          else
+            echo "No changes to commit."
+          fi
