@@ -4,10 +4,9 @@
 ──────────────────────────────────────────────────────────────────── -->
 
 <p align="center">
-  <a href="#english">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&size=28&duration=2800&pause=600&color=9AA4B2&center=true&vCenter=true&width=720&lines=Mahammad+Ibrahimli;Backend+Engineer+%E2%80%A2+API+Architecture;System+Design+%E2%80%A2+Security+Mindset" alt="Typing SVG" />
-  </a>
-</p>
+  <a href="#english"><img alt="Language" src="https://img.shields.io/badge/Language-EN%20%E2%80%A2%20AZ%20%E2%80%A2%20TR%20%E2%80%A2%20RU-111827?style=for-the-badge"></a>
+  <a href="#english"><img alt="Status" src="https://img.shields.io/badge/Status-Builder-111827?style=for-the-badge"></a>
+  <a href="https://linkedin.com/in/mahammd-ibrahimli"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-111827?style=for-the-badge"></a>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Inter&size=26&duration=2400&pause=700&color=9AA4B2&center=true&vCenter=true&width=820&lines=Backend+Engineer+%E2%80%A2+API+Architecture;Java+Spring+Boot+%E2%80%A2+TypeScript+React;Security+Mindset+%E2%80%A2+System+Design" alt="Typing SVG" />
