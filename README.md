@@ -1,166 +1,130 @@
-# Hi there, I'm Mahammad Ibrahimli 👋
-### Full-Stack Software Developer  
-**Backend & API Architecture Focus**
+<!-- ───────────────────────────────────────────────────────────────
+  Profile README • Mahammad Ibrahimli
+  Minimal, functional, premium UI (GitHub-flavored Markdown)
+──────────────────────────────────────────────────────────────────── -->
 
-I build scalable, secure, and maintainable backend systems with Java Spring Boot and modern interactive frontends with TypeScript & React.
+<p align="center">
+  <a href="#english">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&size=28&duration=2800&pause=600&color=9AA4B2&center=true&vCenter=true&width=720&lines=Mahammad+Ibrahimli;Backend+Engineer+%E2%80%A2+API+Architecture;System+Design+%E2%80%A2+Security+Mindset" alt="Typing SVG" />
+  </a>
+</p>
 
-My main interest lies in designing systems — not just writing code.
+<p align="center">
+  <a href="#english"><img alt="Language" src="https://img.shields.io/badge/Language-EN%20%E2%80%A2%20AZ%20%E2%80%A2%20TR%20%E2%80%A2%20RU-111827?style=for-the-badge"></a>
+  <a href="#english"><img alt="Status" src="https://img.shields.io/badge/Status-Builder-111827?style=for-the-badge"></a>
+  <a href="https://linkedin.com/in/mahammd-ibrahimli"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-111827?style=for-the-badge"></a>
+</p>
 
-🔗 Portfolio Website • 🔗 LinkedIn
+<p align="center">
+  <a href="#english">EN</a> ·
+  <a href="#english">AZ</a> ·
+  <a href="#english">TR</a> ·
+  <a href="#english">RU</a>
+</p>
 
----
+<hr/>
 
-## 🧠 Engineering Principles
+<a id="english"></a>
 
-- Architecture-first development
-- Domain-driven design mindset
-- Secure by default implementation
-- Performance & scalability awareness
-- Clean and testable code
+<h2>Identity</h2>
 
----
+<p>
+I build backend systems with a focus on <b>clarity</b>, <b>security</b>, and <b>long-term maintainability</b>.
+I prefer clean architecture, well-defined API contracts, and predictable behavior under load.
+</p>
 
-## 🏗️ System Design Interests
+<div>
+  <b>Primary stack</b>: Java · Spring Boot · TypeScript · React<br/>
+  <b>Location</b>: Baku, Azerbaijan
+</div>
 
-- REST API design & best practices  
-- Authentication & authorization flows  
-- Rate limiting & API protection  
-- Caching strategies  
-- Workflow & state engine design  
-- Modular monolith → microservice evolution  
+<br/>
 
----
+<h2>Signal, not noise</h2>
 
-## 🔐 Security Focus
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>Engineering approach</b>
+      <ul>
+        <li>architecture before code</li>
+        <li>DTO-based API contracts</li>
+        <li>config-driven systems</li>
+        <li>separation of concerns</li>
+        <li>secure by default</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <b>Current direction</b>
+      <ul>
+        <li>scalable backend services</li>
+        <li>authentication & authorization flows</li>
+        <li>workflow / state-based logic</li>
+        <li>developer-facing tools UI</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-- Secure authentication flows
-- Password hashing & credential protection
-- Breached password detection systems
-- API access control & validation layers
-- OWASP-aware development
+<br/>
 
----
+<h2>Selected work</h2>
 
-## 🛠️ Technical Stack
+<table>
+  <tr>
+    <td valign="top">
+      <b>CyberHub</b><br/>
+      API-first full-stack platform with clean contracts and structured validation.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b>Workflow Engine (Java)</b><br/>
+      State-driven process modeling for complex logic and predictable transitions.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b>Interactive Portfolio</b><br/>
+      3D UI with performance-focused rendering and disciplined component structure.
+    </td>
+  </tr>
+</table>
 
-### Backend
-- Java
-- Spring Boot
-- Node.js
+<br/>
 
-### Frontend
-- TypeScript
-- React
-- JavaScript
-- Tailwind CSS
+<h2>Stack (compact)</h2>
 
-### Database
-- MongoDB
+<table>
+  <tr>
+    <td width="25%"><b>Backend</b></td>
+    <td>Java · Spring Boot</td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>TypeScript · React · Tailwind</td>
+  </tr>
+  <tr>
+    <td><b>Data</b></td>
+    <td>MongoDB</td>
+  </tr>
+  <tr>
+    <td><b>Tools</b></td>
+    <td>Docker · Git · Postman</td>
+  </tr>
+</table>
 
-### Tools & DevOps
-- Docker
-- Git
-- Postman
-- VS Code
+<br/>
 
----
+<h2>Links</h2>
 
-## 🚀 Selected Projects
+<ul>
+  <li><b>LinkedIn</b>: <a href="https://linkedin.com/in/mahammd-ibrahimli">linkedin.com/in/mahammd-ibrahimli</a></li>
+  <li><b>Portfolio</b>: soon</li>
+</ul>
 
-### 🌌 Interactive Developer Portfolio
-Immersive portfolio with 3D scenes and parallax effects.
+<hr/>
 
-**Engineering Highlights**
-- Component-based architecture
-- Performance-optimized rendering
-- Three.js scene management
-
-**Stack**
-TypeScript • React • Three.js • Tailwind
-
-🔗 View Repository
-
----
-
-### ☕ Coffo – Responsive Web Project
-
-**Engineering Highlights**
-- Reusable layout system
-- Multi-device responsive structure
-- Consistent UI architecture
-
-**Stack**
-HTML • CSS • JavaScript
-
-🔗 View Repository
-
----
-
-### ⚙️ ShiftFlow – Workflow Logic Engine *(Private)*
-
-Java-based workflow engine for complex logic states.
-
-**Engineering Focus**
-- Domain modeling
-- Flow orchestration
-- State-driven architecture
-
-**Stack**
-Java
-
----
-
-### 🔐 GVault – Secure Vault Interface *(Private)*
-
-Structured vault-style UI with secure data handling approach.
-
-**Engineering Focus**
-- Rigid UI architecture
-- Secure data organization
-
-**Stack**
-HTML • CSS • JavaScript
-
----
-
-## ⚡ Currently Building
-
-- Scalable Spring Boot backend services
-- Secure authentication & authorization systems
-- Interactive 3D frontend experiences
-- API-driven platforms
-
----
-
-## 📈 Development Approach
-
-- Writing self-documenting code
-- Layered validation (client → server → database)
-- DTO-based clean API contracts
-- Centralized exception handling
-- Configuration-driven systems
-
----
-
-## 🧪 Code Quality
-
-- Separation of concerns
-- Reusable components & services
-- Environment-based configuration
-- Git-based workflow
-
----
-
-## 🎯 Long-Term Direction
-
-- Advanced system design
-- High-load backend architecture
-- Cloud-native applications
-- Distributed systems
-
----
-
-## 📫 Let's Connect
-
-- LinkedIn
-- Portfolio Website
+<p align="center">
+  <sub>minimal • functional • consistent</sub>
+</p>
