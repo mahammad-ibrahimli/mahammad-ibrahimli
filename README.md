@@ -1,4 +1,4 @@
-# Hi there, I'm Tofiq Askarov 👋
+# Hi there, I'm Mahammad Ibrahimli 👋
 ### Full-Stack Software Developer  
 **Backend & API Architecture Focus**
 
