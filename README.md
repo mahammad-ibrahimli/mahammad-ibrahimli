@@ -97,6 +97,11 @@ I prefer clean architecture, predictable API contracts, and disciplined validati
 - **LinkedIn**: https://linkedin.com/in/mahammd-ibrahimli  
 - **Portfolio**: soon
 
+## 🐍 Contribution Snake
+
+![snake gif](https://github.com/tofiqaskerov/tofiqaskerov/blob/output/github-contribution-grid-snake-dark.svg)
+
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,100:111827&height=90&section=footer&text=&fontSize=0" alt="footer" />
 </p>
@@ -106,6 +111,3 @@ I prefer clean architecture, predictable API contracts, and disciplined validati
 </p>
 
 
-## 🐍 Contribution Snake
-
-![snake gif](https://github.com/tofiqaskerov/tofiqaskerov/blob/output/github-contribution-grid-snake-dark.svg)
