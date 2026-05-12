@@ -104,3 +104,8 @@ I prefer clean architecture, predictable API contracts, and disciplined validati
 <p align="center">
   <sub>minimal • functional • consistent</sub>
 </p>
+
+
+## 🐍 Contribution Snake
+
+![snake gif](https://github.com/tofiqaskerov/tofiqaskerov/blob/output/github-contribution-grid-snake-dark.svg)
